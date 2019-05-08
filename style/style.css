@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+.main-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-bottom: 1px solid #b1b1b1;
+  padding-bottom: 20px;
+}
+
+.header-nav-list {
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  width: 470px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav-item {
+  list-style: none;
+}
+
+.header-nav-item a {
+  color: #424040;
+  text-decoration: none;
+}
+
+canvas {
+  display: block;
+}
